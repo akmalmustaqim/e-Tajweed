@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.muza.e_tajweed">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="e-Tajweed" />
+        <activity
+            android:name=".SignUpActivity"
+            android:label="Sign Up" />
+        <activity android:name=".IdghamBiGhunnah" />
+        <activity android:name=".IdghamBiLaGhunnah" />
+        <activity android:name=".Ikhfak" />
+        <activity android:name=".Iqlab" />
+        <activity android:name=".recording">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".nav"
+            android:label="@string/title_activity_nav"
+            android:theme="@style/AppTheme"></activity>
+        <activity android:name=".Izhar" />
+        <activity android:name=".listrecordactivity">
+
+        </activity>
+        <activity android:name=".listviewrekod">
+
+        </activity>
+    </application>
+
+</manifest>

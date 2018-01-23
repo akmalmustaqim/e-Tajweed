@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "268376453761",
+    "firebase_url": "https://e-tajweed.firebaseio.com",
+    "project_id": "e-tajweed",
+    "storage_bucket": "e-tajweed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:268376453761:android:27102ec0572073ec",
+        "android_client_info": {
+          "package_name": "com.muza.e_tajweed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "268376453761-l9qapahn7fr2604oqp34k9b3fae70gq1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.muza.e_tajweed",
+            "certificate_hash": "57eb752d9fec46482b2db81ac3ce9c1eb4a2b9c7"
+          }
+        },
+        {
+          "client_id": "268376453761-otd84e626bulh762vbsjks5c7gvgi3ng.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfEhHqULXaTJAuIh3GGARLvDidaqxJwSM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "268376453761-otd84e626bulh762vbsjks5c7gvgi3ng.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
